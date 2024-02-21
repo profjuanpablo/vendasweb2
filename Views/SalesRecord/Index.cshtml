@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>@ViewData["Title"]</h2>
+<form class="form-horizontal" asp-action="SimpleSearch">
+<div class="row">
+
+  
+
+        <div class="col">
+
+            <label for="minDate" class="col-lg-2" l>Min Date</label>
+
+            <input type="date" name="minDate" />
+
+
+        </div>
+
+        <div class="col">
+
+            <label for="maxDate" class="col-lg-2">Min Date</label>
+
+            <input type="date" name="maxDate" />
+        </div>
+
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+</div>
+
+</form>
